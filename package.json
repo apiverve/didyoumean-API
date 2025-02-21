@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/didyoumean",
+  "version": "1.1.8",
+  "description": "Did You Mean is a simple tool for correcting spelling mistakes. It returns the corrected text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/didyoumean-API.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/didyoumean-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/didyoumean?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.9"
+  }
+}
