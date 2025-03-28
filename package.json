@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/didyoumean",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Did You Mean is a simple tool for correcting spelling mistakes. It returns the corrected text.",
   "main": "index.js",
   "scripts": {
