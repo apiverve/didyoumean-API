@@ -12,7 +12,6 @@ namespace APIVerve.API.DidYouMean
     {
         /// <summary>
         /// The text you want to check for spelling mistakes
-        /// Example: what weather today is
         /// </summary>
         [JsonProperty("query")]
         public string Query { get; set; }
