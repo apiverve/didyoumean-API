@@ -221,8 +221,9 @@ from apiverve_didyoumean.apiClient import DidyoumeanAPIClient
 
 api = DidyoumeanAPIClient("[YOUR_API_KEY]")
 
+query = { "query": "what weather today is" }
+
 try:
-    query = { "query": "what weather today is" }
     result = api.execute(query)
     print(result)
 finally:
