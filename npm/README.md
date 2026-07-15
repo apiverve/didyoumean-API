@@ -125,8 +125,8 @@ async function makeRequest() {
     "query": "what weather today is",
     "didYouMean": [
       "what is the weather today",
-      "what's the weather today",
-      "what will the weather be today"
+      "what's the weather like today",
+      "what will be the weather today"
     ]
   }
 }
